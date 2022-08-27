@@ -1,0 +1,12 @@
+
+<div class="post-dashboard-container mat-elevation-z5">
+  <mat-form-field>
+    <input matInput placeholder="Post title" [(ngModel)]="title" name="title">
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <textarea matInput placeholder="Post content" [(ngModel)]="content" name="content" rows="10"></textarea>
+  </mat-form-field>
+  <br>
+  <button mat-raised-button (click)="createPost()" color="accent" [disabled]="!title || !content">Create Post</button>
+</div>

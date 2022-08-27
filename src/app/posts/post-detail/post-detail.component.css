@@ -1,0 +1,10 @@
+.post-container {
+    display: block;
+    max-width: 823px;
+    margin: auto;
+    margin-top: 30px;
+  
+    background: #eceff1;
+    padding: 48px;
+    border-radius: 16px;   
+}
